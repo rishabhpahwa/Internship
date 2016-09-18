@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BINDIR	Makefile	/^BINDIR = bin$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+DlibFaceDetect	include/DlibFaceDetect.h	/^class DlibFaceDetect$/;"	c
+DlibFaceDetect	src/DlibFaceDetect.cpp	/^DlibFaceDetect::DlibFaceDetect()$/;"	f	class:DlibFaceDetect
+INCDIR	Makefile	/^INCDIR = include$/;"	m
+INCFLAGS	Makefile	/^INCFLAGS = -I.\/$(INCDIR)\/$/;"	m
+LIBDIR	Makefile	/^LIBDIR = lib$/;"	m
+LIBFLAGS	Makefile	/^LIBFLAGS = -L.\/$(LIBDIR)\/ $/;"	m
+OBJDIR	Makefile	/^OBJDIR = obj$/;"	m
+ReadDirectory	include/ReadDirectory.h	/^class ReadDirectory$/;"	c
+SRCDIR	Makefile	/^SRCDIR = src$/;"	m
+_DLIB_FACEDETECT_	include/DlibFaceDetect.h	2;"	d
+_READ_DIR_	include/ReadDirectory.h	2;"	d
+detectAndDisplay	src/DlibFaceDetect.cpp	/^void DlibFaceDetect::detectAndDisplay(std::string currentPath)$/;"	f	class:DlibFaceDetect
+isDir	src/ReadDirectory.cpp	/^bool ReadDirectory::isDir(string dir)$/;"	f	class:ReadDirectory
+listFiles	src/ReadDirectory.cpp	/^std::vector<string> ReadDirectory::listFiles(string baseDir, bool recursive)$/;"	f	class:ReadDirectory
+m_detector	include/DlibFaceDetect.h	/^  frontal_face_detector m_detector;$/;"	m	class:DlibFaceDetect
+m_fileList	include/ReadDirectory.h	/^    std::vector<string> m_fileList;$/;"	m	class:ReadDirectory
+main	src/main.cpp	/^int main(int argc, char* argv[])$/;"	f
+sortFileNames	src/ReadDirectory.cpp	/^std::vector<string> ReadDirectory::sortFileNames()$/;"	f	class:ReadDirectory
